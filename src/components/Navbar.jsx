@@ -4,7 +4,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full bg-light z-50 border-b border-secondary/10">
+    <nav className="fixed top-0 w-full bg-light z-50 border-b border-muted/30">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-serif font-bold text-secondary">
           <span className="text-primary">M</span>usa
@@ -28,7 +28,7 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-light border-t border-secondary/10">
+        <div className="md:hidden bg-light border-t border-muted/30">
           <div className="px-6 py-4 flex flex-col space-y-4">
             <a href="#home" className="text-secondary hover:text-primary font-semibold text-sm uppercase tracking-wide" onClick={() => setIsOpen(false)}>Home</a>
             <a href="#about" className="text-secondary hover:text-primary font-semibold text-sm uppercase tracking-wide" onClick={() => setIsOpen(false)}>About</a>

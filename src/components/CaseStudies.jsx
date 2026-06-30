@@ -34,7 +34,7 @@ function CaseStudies() {
     <section id="case-studies" className="py-20 bg-secondary">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-light/60 mb-8">
+          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
             <span>Case Studies</span>
             <span>Musa</span>
           </div>
@@ -61,11 +61,11 @@ function CaseStudies() {
                 <div className="space-y-6">
                   <div>
                     <h4 className="text-primary font-semibold mb-2">Challenge</h4>
-                    <p className="text-light/70">{study.challenge}</p>
+                    <p className="text-muted">{study.challenge}</p>
                   </div>
                   <div>
                     <h4 className="text-primary font-semibold mb-2">Solution</h4>
-                    <p className="text-light/70">{study.solution}</p>
+                    <p className="text-muted">{study.solution}</p>
                   </div>
                   <div>
                     <h4 className="text-primary font-semibold mb-3">Results</h4>

@@ -3,7 +3,7 @@ function Hero() {
     <section id="home" className="pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
-          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-secondary/60 mb-12">
+          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-12">
             <span>...</span>
             <span>Digital Marketing Specialist</span>
             <span>Musa Portfolio</span>
@@ -34,7 +34,7 @@ function Hero() {
         </div>
 
         <div className="mt-80 text-center">
-          <p className="text-lg md:text-xl text-secondary/70 max-w-2xl mx-auto mb-8">
+          <p className="text-lg md:text-xl text-muted max-w-2xl mx-auto mb-8">
             Turning ideas into impactful digital campaigns that drive growth and engagement.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

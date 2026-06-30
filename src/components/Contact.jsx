@@ -17,7 +17,7 @@ function Contact() {
     <section id="contact" className="py-20 bg-secondary">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
-          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-light/60 mb-8">
+          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
             <span>CONTACT</span>
             <span>MUSA</span>
           </div>
@@ -30,34 +30,34 @@ function Contact() {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-light/70 text-sm font-semibold mb-2 uppercase tracking-wide">Name</label>
+              <label className="block text-muted text-sm font-semibold mb-2 uppercase tracking-wide">Name</label>
               <input 
                 type="text" 
                 required
                 value={formData.name}
                 onChange={(e) => setFormData({...formData, name: e.target.value})}
-                className="w-full bg-transparent border-b-2 border-light/30 text-light py-3 focus:outline-none focus:border-primary transition-colors"
+                className="w-full bg-transparent border-b-2 border-muted/30 text-light py-3 focus:outline-none focus:border-primary transition-colors"
               />
             </div>
             <div>
-              <label className="block text-light/70 text-sm font-semibold mb-2 uppercase tracking-wide">Email</label>
+              <label className="block text-muted text-sm font-semibold mb-2 uppercase tracking-wide">Email</label>
               <input 
                 type="email" 
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({...formData, email: e.target.value})}
-                className="w-full bg-transparent border-b-2 border-light/30 text-light py-3 focus:outline-none focus:border-primary transition-colors"
+                className="w-full bg-transparent border-b-2 border-muted/30 text-light py-3 focus:outline-none focus:border-primary transition-colors"
               />
             </div>
           </div>
           <div>
-            <label className="block text-light/70 text-sm font-semibold mb-2 uppercase tracking-wide">Message</label>
+            <label className="block text-muted text-sm font-semibold mb-2 uppercase tracking-wide">Message</label>
             <textarea 
               required
               rows="5"
               value={formData.message}
               onChange={(e) => setFormData({...formData, message: e.target.value})}
-              className="w-full bg-transparent border-b-2 border-light/30 text-light py-3 focus:outline-none focus:border-primary transition-colors resize-none"
+              className="w-full bg-transparent border-b-2 border-muted/30 text-light py-3 focus:outline-none focus:border-primary transition-colors resize-none"
             ></textarea>
           </div>
           <button 
@@ -68,7 +68,7 @@ function Contact() {
           </button>
         </form>
 
-        <div className="mt-16 flex flex-wrap justify-center gap-8 text-light/70">
+        <div className="mt-16 flex flex-wrap justify-center gap-8 text-muted">
           <div>
             <h4 className="font-semibold text-light mb-2 uppercase tracking-wide text-xs">Email</h4>
             <p>hello@musamarketing.com</p>

@@ -21,7 +21,7 @@ function Testimonials() {
     <section className="py-20 bg-light">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-secondary/60 mb-8">
+          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
             <span>TESTIMONIALS</span>
             <span>MUSA</span>
           </div>
@@ -33,12 +33,12 @@ function Testimonials() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="p-8 border border-secondary/20 hover:border-primary transition-colors">
+            <div key={index} className="p-8 border border-muted/30 hover:border-primary transition-colors">
               <div className="text-4xl text-primary mb-4">"</div>
-              <p className="text-secondary/70 leading-relaxed mb-6">{testimonial.quote}</p>
+              <p className="text-muted leading-relaxed mb-6">{testimonial.quote}</p>
               <div>
                 <h4 className="font-semibold text-secondary">{testimonial.name}</h4>
-                <p className="text-secondary/60 text-sm">{testimonial.role}</p>
+                <p className="text-muted text-sm">{testimonial.role}</p>
               </div>
             </div>
           ))}

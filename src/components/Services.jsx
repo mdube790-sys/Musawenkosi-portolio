@@ -26,7 +26,7 @@ function Services() {
     <section id="services" className="py-20 bg-secondary">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-light/60 mb-8">
+          <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
             <span>SERVICES</span>
             <span>MUSA</span>
           </div>
@@ -38,14 +38,14 @@ function Services() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="border-t border-light/20 pt-8 hover:border-primary transition-colors group">
+            <div key={index} className="border-t border-muted/30 pt-8 hover:border-primary transition-colors group">
               <div className="flex items-start gap-4">
                 <span className="font-serif text-4xl text-primary font-bold">{service.number}</span>
                 <div>
                   <h3 className="font-serif text-2xl font-bold text-light mb-2 group-hover:text-primary transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-light/60 leading-relaxed">
+                  <p className="text-muted leading-relaxed">
                     {service.desc}
                   </p>
                 </div>

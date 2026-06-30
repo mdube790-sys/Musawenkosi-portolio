@@ -25,7 +25,7 @@ function Projects() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="bg-secondary text-light p-8 md:p-12">
-            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-light/60 mb-8">
+            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
               <span>PROJECT 01</span>
               <span>MUSA</span>
             </div>
@@ -43,14 +43,14 @@ function Projects() {
               />
             </div>
 
-            <p className="text-light/70 leading-relaxed mb-4">
+            <p className="text-muted leading-relaxed mb-4">
               A comprehensive social media and PPC campaign that transformed sales for this e-commerce brand.
             </p>
             <div className="font-semibold text-primary">{projects[0].results}</div>
           </div>
 
           <div className="bg-light p-8 md:p-12">
-            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-secondary/60 mb-8">
+            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
               <span>EXPERIENCE</span>
               <span>MUSA</span>
             </div>
@@ -61,17 +61,17 @@ function Projects() {
             <div className="font-script text-4xl text-secondary mb-8">Work</div>
 
             <div className="space-y-6">
-              <div className="border-t border-secondary pt-4">
+              <div className="border-t border-muted/30 pt-4">
                 <h4 className="font-semibold text-secondary mb-2">✦ Senior Digital Marketer - TechCorp</h4>
-                <p className="text-secondary/60 text-sm">Led global campaigns reaching 2M+ users.</p>
+                <p className="text-muted text-sm">Led global campaigns reaching 2M+ users.</p>
               </div>
-              <div className="border-t border-secondary pt-4">
+              <div className="border-t border-muted/30 pt-4">
                 <h4 className="font-semibold text-secondary mb-2">✦ Marketing Manager - BrandStudio</h4>
-                <p className="text-secondary/60 text-sm">Grew social following by 400% in 18 months.</p>
+                <p className="text-muted text-sm">Grew social following by 400% in 18 months.</p>
               </div>
-              <div className="border-t border-secondary pt-4">
+              <div className="border-t border-muted/30 pt-4">
                 <h4 className="font-semibold text-secondary mb-2">✦ SEO Specialist - GrowthHub</h4>
-                <p className="text-secondary/60 text-sm">Increased organic traffic by 250%.</p>
+                <p className="text-muted text-sm">Increased organic traffic by 250%.</p>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Projects() {
               <h3 className="font-serif text-2xl font-bold text-secondary group-hover:text-primary transition-colors">
                 {project.title}
               </h3>
-              <p className="text-secondary/60 mb-2">{project.category}</p>
+              <p className="text-muted mb-2">{project.category}</p>
               <p className="text-primary font-semibold">{project.results}</p>
             </div>
           ))}
@@ -99,9 +99,9 @@ function Projects() {
             <div className="font-script text-4xl text-light mb-2">Let's work</div>
             <h3 className="font-serif text-4xl md:text-5xl font-black text-light mb-6">TOGETHER</h3>
             <div className="space-y-2 text-center">
-              <p className="text-light/70">+1 (555) 123-4567</p>
-              <p className="text-light/70">hello@musamarketing.com</p>
-              <p className="text-light/70">musamarketing.com</p>
+              <p className="text-muted">+1 (555) 123-4567</p>
+              <p className="text-muted">hello@musamarketing.com</p>
+              <p className="text-muted">musamarketing.com</p>
             </div>
           </div>
         </div>

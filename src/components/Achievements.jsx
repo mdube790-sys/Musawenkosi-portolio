@@ -15,7 +15,7 @@ function Achievements() {
           {stats.map((stat, idx) => (
             <div key={idx} className="p-6">
               <div className="font-serif text-5xl md:text-7xl font-black text-white mb-2">{stat.value}</div>
-              <div className="text-light/80 font-semibold text-sm uppercase tracking-wider">{stat.label}</div>
+              <div className="text-muted font-semibold text-sm uppercase tracking-wider">{stat.label}</div>
             </div>
           ))}
         </div>

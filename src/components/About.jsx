@@ -4,7 +4,7 @@ function About() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="bg-light p-8 md:p-12">
-            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-secondary/60 mb-8">
+            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
               <span>ABOUT</span>
               <span>MUSA</span>
             </div>
@@ -16,10 +16,10 @@ function About() {
 
             <div className="flex flex-col md:flex-row gap-8">
               <div className="flex-1">
-                <p className="text-secondary/70 leading-relaxed mb-6">
+                <p className="text-muted leading-relaxed mb-6">
                   Hi! I'm Musa, a passionate digital marketing specialist with 5+ years of experience crafting data-driven campaigns that connect brands with their audiences.
                 </p>
-                <p className="text-secondary/70 leading-relaxed">
+                <p className="text-muted leading-relaxed">
                   From SEO strategy to social media management, I blend creativity with analytics to deliver measurable results.
                 </p>
               </div>
@@ -38,7 +38,7 @@ function About() {
           </div>
 
           <div className="bg-secondary text-light p-8 md:p-12">
-            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-light/60 mb-8">
+            <div className="flex justify-between items-center text-xs font-semibold uppercase tracking-wider text-muted mb-8">
               <span>EXPERTISE</span>
               <span>MUSA</span>
             </div>
@@ -59,19 +59,19 @@ function About() {
               <div className="flex-1 space-y-6">
                 <div>
                   <h4 className="font-semibold text-light mb-2">SEO & Content Strategy</h4>
-                  <p className="text-light/60 text-sm leading-relaxed">Optimizing content to rank higher and drive organic traffic.</p>
+                  <p className="text-muted text-sm leading-relaxed">Optimizing content to rank higher and drive organic traffic.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-light mb-2">Social Media Management</h4>
-                  <p className="text-light/60 text-sm leading-relaxed">Building engaged communities across all platforms.</p>
+                  <p className="text-muted text-sm leading-relaxed">Building engaged communities across all platforms.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-light mb-2">Paid Advertising</h4>
-                  <p className="text-light/60 text-sm leading-relaxed">Creating ROI-driven campaigns on Google and Meta.</p>
+                  <p className="text-muted text-sm leading-relaxed">Creating ROI-driven campaigns on Google and Meta.</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-light mb-2">Analytics & Reporting</h4>
-                  <p className="text-light/60 text-sm leading-relaxed">Turning data into actionable insights.</p>
+                  <p className="text-muted text-sm leading-relaxed">Turning data into actionable insights.</p>
                 </div>
               </div>
             </div>
